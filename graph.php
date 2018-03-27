@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("http://team2.hestalabs.com/", "root", "admin", "firstjob");
+$connect = mysqli_connect("localhost", "root", "admin", "firstjob");
 $query = "SELECT * FROM users";
 $result = mysqli_query($connect, $query);
 $chart_data = '';
