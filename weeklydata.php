@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost','root','root','firstjob');
+$conn = mysqli_connect('localhost','root','admin','firstjob');
 
        function showdata(){
        	 GLOBAL $conn;
